@@ -2,7 +2,7 @@
   --darker-color: #2B2E3C;
   --dark-color: #83909F;
   --light-color: #94A2AD;
-  --neutral-colot: white;
+  --neutral-color: white;
   --lighter-color: #E0E3E7;
   --contrast-color: #fbe18b;
   --primary-font: Helvetica, Arial, sans-serif;
@@ -58,3 +58,25 @@ header nav ul li a:hover {
   color: var(--contrast-color);
 }
 /* end header */
+
+/* start hero */
+.hero {
+  background-image: url("../images/hero.jpeg");
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+  background-attachment: fixed;
+  background-color: var(--neutral-color);
+  font-size: 2vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  color: var(--lighter-color);
+}
+
+/* .hero p {
+  color: var(--lighter-color);
+} */
+/* end hero */
+
