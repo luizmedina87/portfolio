@@ -1,9 +1,20 @@
 :root {
-    --darker-color: #2B2E3C;
-    --dark-color: #83909F;
-    --light-color: #94A2AD;
-    --lighter-color: #E0E3E7;
-    --contrast-color: #fbe18b;
-    --primary-font: Helvetica, Arial, sans-serif;
+  --darker-color: #2B2E3C;
+  --dark-color: #83909F;
+  --light-color: #94A2AD;
+  --neutral-colot: white;
+  --lighter-color: #E0E3E7;
+  --contrast-color: #fbe18b;
+  --primary-font: Helvetica, Arial, sans-serif;
 }
 
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--neutral-color);
+  font-family: var(--primary-font);
+}
