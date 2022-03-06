@@ -155,8 +155,8 @@ header nav ul li a:hover {
 /* end projects */
 
 .contact-me {
-  background-color: var(--lighter-color);
-  color: var(--darker-color);
+  background-color: var(--darker-color);
+  color: var(--lighter-color);
   padding: 20px 35px;
   display: flex;
   justify-content: space-between;
@@ -179,11 +179,15 @@ header nav ul li a:hover {
 
 .contact-me h2 {
   letter-spacing: 5px;
-  color: var(--darker-color);
 }
 
 .contact-me li, .contact-me a {
   margin: 0px 15px;
   display: flex;
   align-items: center;
+  font-style: normal;
+}
+
+.contact-me a:hover {
+  color: var(--contrast-color)
 }
