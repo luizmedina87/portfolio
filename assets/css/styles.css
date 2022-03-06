@@ -154,6 +154,7 @@ header nav ul li a:hover {
 }
 /* end projects */
 
+/* start contact */
 .contact-me {
   background-color: var(--darker-color);
   color: var(--lighter-color);
@@ -191,3 +192,4 @@ header nav ul li a:hover {
 .contact-me a:hover {
   color: var(--contrast-color)
 }
+/* end contact */
