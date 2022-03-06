@@ -124,21 +124,8 @@ header nav ul li a:hover {
   color: var(--lighter-color);
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: center;
   align-content: center;
-}
-
-.first-project {
-  text-align: center;
-  color: var(--lighter-color);
-}
-
-.project {
-  text-align: center;
-  color: var(--lighter-color);
-  height: 300px;
-  width: 300px;
-  object-fit: cover;
 }
 
 .first-project img {
@@ -151,6 +138,18 @@ header nav ul li a:hover {
   height: 300px;
   width: 300px;
   object-fit: cover;
+}
+
+.project-container {
+  position: relative;
+  text-align: center;
+}
+
+.project-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 /* end projects */
 
