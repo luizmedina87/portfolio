@@ -81,6 +81,10 @@ header nav ul li a:hover {
   align-content: center;
   color: var(--lighter-color);
 }
+
+.hero p {
+  text-shadow: 3px 3px 5px black;
+}
 /* end hero */
 
 /* start aboutme */
@@ -128,6 +132,11 @@ header nav ul li a:hover {
   align-content: center;
 }
 
+.projects img {
+  filter: brightness(50%);
+  transition: filter 3s;
+}
+
 .first-project img {
   height: 245px;
   width: 490px;
@@ -150,6 +159,10 @@ header nav ul li a:hover {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.projects img:hover {
+  filter: brightness(15%)
 }
 /* end projects */
 
