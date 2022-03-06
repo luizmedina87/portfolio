@@ -89,8 +89,7 @@ header nav ul li a:hover {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  padding: 2vh 1vw;
-  height: 50vh;
+  padding: 4vh 2vw;
 }
 
 .about-me img {
