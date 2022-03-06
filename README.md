@@ -12,3 +12,10 @@ https://luizmedina87.github.io/portfolio/
 
 ## Contribution
 Created and developed by Luiz Medina.
+
+## Screenshots
+![alt text](https://github.com/luizmedina87/portfolio/blob/main/assets/images/ss-main.png)
+
+![alt text](https://github.com/luizmedina87/portfolio/blob/main/assets/images/ss-about.png?raw=true)
+
+![alt text](https://github.com/luizmedina87/portfolio/blob/main/assets/images/ss-works.png?raw=true)
