@@ -99,5 +99,11 @@ header nav ul li a:hover {
 
 .about-me-content h2 {
   padding-bottom: 10px;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.about-me-content p {
+  font-size: 17px;
 }
 /* end aboutme */
