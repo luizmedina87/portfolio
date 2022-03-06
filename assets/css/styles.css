@@ -154,3 +154,74 @@ header nav ul li a:hover {
 }
 /* end projects */
 
+.contact-me {
+  background-color: var(--lighter-color);
+  color: var(--darker-color);
+  padding: 20px 35px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.contact-me img {
+  height: 30px;
+  width: auto;
+  margin: 0px 10px;
+}
+
+.contact-me ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+.contact-me h2 {
+  letter-spacing: 5px;
+  color: var(--darker-color);
+}
+
+.contact-me li, .contact-me a {
+  margin: 0px 15px;
+  display: flex;
+  align-items: center;
+}
+/* 
+header {
+  background-color: var(--darker-color);
+  color: var(--lighter-color);
+  padding: 20px 35px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  position: relative;
+  top: 0;
+}
+
+header h1 {
+  letter-spacing: 7px;
+  color: var(--contrast-color);
+}
+
+header a {
+  text-decoration: none;
+  color: var(--lighter-color);
+  padding: 10px 15px;
+}
+
+header nav {
+  margin: 7px 0;
+}
+
+header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+header nav ul li a:hover {
+  color: var(--contrast-color);
+} */
