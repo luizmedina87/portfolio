@@ -9,6 +9,11 @@
   --primary-font: Helvetica, Arial, sans-serif;
 }
 
+a:link, a:visited, a:hover, a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -107,3 +112,45 @@ header nav ul li a:hover {
   font-size: 17px;
 }
 /* end aboutme */
+
+/* start projects */
+.projects {
+  background-image: url("../images/hero.jpeg");
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+  background-attachment: fixed;
+  background-color: var(--neutral-color);
+  color: var(--lighter-color);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-content: center;
+}
+
+.first-project {
+  text-align: center;
+  color: var(--lighter-color);
+}
+
+.project {
+  text-align: center;
+  color: var(--lighter-color);
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+}
+
+.first-project img {
+  height: 300px;
+  width: 600px;
+  object-fit: cover;
+}
+
+.project img {
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+}
+/* end projects */
+
